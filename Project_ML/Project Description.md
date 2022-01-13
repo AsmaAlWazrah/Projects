@@ -28,11 +28,12 @@ Logistic regression, random forest classifiers, XGBoost, and Deep Neural network
 The entire training dataset of 110,527 records was split into 80/20 train vs. test. Predictions on the 20% test set were limited to the very end, so this split was only used and scores were seen just once.
 Since it is classification problem, the official metric was classification rate (accuracy); however, the dataset is unbalanced. For this reason, the class weights were included to improve performance against F1 score and provide a more useful real-world application where classification of the minority class (functional needs repair) would be essential.
 
+#BEST MODEL
 **Final Deep NN test scores:** 93 features 
    - Accuracy 79.64%
-   - precision 79.98%
+   - precision 79.94%
    - recall 100%
-   - F1 88.87%
+   - F1 88.85%
 
 
 ## Tools
